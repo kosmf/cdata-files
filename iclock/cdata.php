@@ -4,9 +4,9 @@ date_default_timezone_set('Asia/Jakarta');
 
 // Masukkan kredensial database Anda
 $host = 'localhost';
-$db = 'smgroupco_office'; 
-$user = 'ngarep';             
-$pass = '0kK.yN!tl39na9ae'; 
+$db = ''; 
+$user = '';             
+$pass = ''; 
 
 try {
     $dsn = "mysql:host=$host;dbname=$db;charset=utf8mb4";
